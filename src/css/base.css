@@ -18,10 +18,14 @@
   /* Variables */
   --indent-row: 24px;
   --indent-col: 24px;
-}
 
-* {
-  box-sizing: border-box;
+  --dark-gray-cl: 46, 47, 66;
+  --light-gray-cl: 128, 128, 128;
+  --dark-blue-cl: 78, 117, 255;
+  --light-blue-cl: 108, 140, 255;
+  --error-cl: 255, 78, 78;
+  --black-cl: 0, 0, 0;
+  --white-cl: 255, 255, 255;
 }
 
 body {
@@ -30,6 +34,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 main {

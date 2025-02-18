@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task2</title>
+    <title>Task 2</title>
   </head>
   <body>
-    <h1>Form</h1>
+    <form class="feedback-form" autocomplete="off">
+      <label class="feedback-form-label">
+        Email
+        <input
+          class="feedback-form-input"
+          type="email"
+          name="email"
+          autofocus
+        />
+      </label>
+      <label class="feedback-form-label">
+        Message
+        <textarea
+          class="feedback-form-message"
+          name="message"
+          rows="3"
+        ></textarea>
+      </label>
+      <button class="submit-btn" type="submit">Submit</button>
+    </form>
   </body>
 </html>
