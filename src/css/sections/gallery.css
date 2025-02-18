@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: var(--indent-col);
+  row-gap: var(--indent-row);
+  margin: 80px 0;
+}
+
+.gallery-item {
+  width: calc((100% - var(--indent-col) * (var(--items) - 1)) / var(--items));
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
